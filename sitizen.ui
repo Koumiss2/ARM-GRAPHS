@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sitizen</class>
+ <widget class="QDialog" name="sitizen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+color: rgb(244, 222, 100);
+font: 25 8pt &quot;Comfortaa&quot;;
+background-color: #282828; </string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableView" name="tableView">
+       <property name="styleSheet">
+        <string notr="true">background-color: #fff;
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">background-color: #1E1E1E; 
+    border: none;
+    color: rgb(244, 222, 100); 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+
+    font-size: 16px; 
+    margin: 4px 2px; 
+    border-radius: 8px; 
+</string>
+         </property>
+         <property name="text">
+          <string>Добавить</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: #1E1E1E; 
+    border: none;
+    color: rgb(244, 222, 100); 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+
+    font-size: 16px; 
+    margin: 4px 2px; 
+    border-radius: 8px; 
+</string>
+         </property>
+         <property name="text">
+          <string>Удалить</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

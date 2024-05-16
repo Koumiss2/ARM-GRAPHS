@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Autorization</class>
+ <widget class="QDialog" name="Autorization">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(244, 222, 100);
+font: 25 8pt &quot;Comfortaa&quot;;
+background-color: rgb(40,40,40); </string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>130</y>
+     <width>461</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;ЖЭКуслуги&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>Авторизация</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">background-color: #313131</string>
+           </property>
+           <property name="text">
+            <string>Логин</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="styleSheet">
+            <string notr="true">
+    padding: 5px; 
+    font-size: 10px; 
+    border-radius: 4px; 
+    border: 1px solid rgb(244, 222, 100); 
+    width:  200px; </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: #313131
+</string>
+           </property>
+           <property name="text">
+            <string>Пароль</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_2">
+           <property name="styleSheet">
+            <string notr="true">
+    padding: 5px; 
+    font-size: 10px; 
+    border-radius: 4px; 
+    border: 1px solid rgb(244, 222, 100); 
+    width:  200px; </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox">
+         <property name="styleSheet">
+          <string notr="true">background-color: #313131</string>
+         </property>
+         <property name="text">
+          <string>административный вход</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">background-color: #1E1E1E; 
+    border: none;
+    color: rgb(244, 222, 100); 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+
+    font-size: 16px; 
+    margin: 4px 2px; 
+    border-radius: 8px; </string>
+         </property>
+         <property name="text">
+          <string>Авторизоваться</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
